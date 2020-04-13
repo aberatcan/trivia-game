@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import Game from './components/Game';
+import Welcome from './components/Welcome';
+import Home from './components/Home';
 
 
-ReactDOM.render(<Game/>, document.querySelector('#root'));
+ReactDOM.render(<Home/>, document.querySelector('#root'));
